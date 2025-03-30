@@ -7,10 +7,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173", // Specify the allowed origin
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"], // Allowed HTTP methods
-    allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
-    credentials: true, // Allows cookies to be sent with requests
+    origin: "http://localhost:5173",
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"], 
+    allowedHeaders: ["Content-Type", "Authorization"], 
+    credentials: true, 
   })
 );
 
